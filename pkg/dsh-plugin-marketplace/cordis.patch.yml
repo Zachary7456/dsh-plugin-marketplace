@@ -1,0 +1,4 @@
+# dsh-plugin-marketplace bundle patch：把市场插进 profile 插件表
+- insert:
+    - id: plugin-marketplace
+      name: dsh-plugin-marketplace
