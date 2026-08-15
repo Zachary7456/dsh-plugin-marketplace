@@ -1,0 +1,38 @@
+{
+  "name": "dsh-plugin-marketplace",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness 插件市场：内置演示目录 + npm 自动拉取 + registry 远端仓库，浏览、一键永久安装到用户预设组合，以及技能安装。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./plugins/*": "./global-plugins/*.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "bundled/",
+    "global-plugins/",
+    "cordis.patch.yml",
+    "registry.example.json",
+    "README.md"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "marketplace",
+    "preset"
+  ],
+  "license": "MIT"
+}
