@@ -1,0 +1,20 @@
+{
+  "name": "本地仓库（工作区）",
+  "plugins": [
+    { "id": "uuid-tool", "name": "UUID 生成工具", "description": "注册模型工具 uuid_v4：生成随机 UUID v4 字符串，适合生成唯一标识、测试数据等。", "version": "1.0.0", "author": "本地仓库", "tags": ["工具", "实用"], "icon": "🔑", "kind": "preset-plugin", "file": "plugins/uuid-tool.js" },
+    { "id": "timestamp-tool", "name": "时间戳工具", "description": "注册模型工具 timestamp_now：返回当前 Unix 秒/毫秒与 ISO-8601 时间。", "version": "1.0.0", "author": "本地仓库", "tags": ["工具", "时间"], "icon": "🕐", "kind": "preset-plugin", "file": "plugins/timestamp-tool.js" },
+    { "id": "base64-tool", "name": "Base64 编解码工具", "description": "注册模型工具 base64_text：对文本做 Base64 编码或解码（支持 UTF-8）。", "version": "1.0.0", "author": "本地仓库", "tags": ["工具", "编码"], "icon": "🔐", "kind": "preset-plugin", "file": "plugins/base64-tool.js" },
+    { "id": "case-tool", "name": "命名风格转换工具", "description": "注册模型工具 case_convert：在 camelCase / PascalCase / snake_case / kebab-case 之间转换标识符。", "version": "1.0.0", "author": "本地仓库", "tags": ["工具", "文本"], "icon": "🔤", "kind": "preset-plugin", "file": "plugins/case-tool.js" },
+    { "id": "char-count", "name": "文本统计工具", "description": "注册模型工具 char_count：统计文本的字符数、单词数与行数。", "version": "1.0.0", "author": "本地仓库", "tags": ["工具", "统计"], "icon": "🔢", "kind": "preset-plugin", "file": "plugins/char-count.js" },
+    { "id": "json-format", "name": "JSON 格式化工具", "description": "注册模型工具 json_format：美化/校验 JSON 文本，返回格式化结果与错误位置。", "version": "1.0.0", "author": "内置市场", "tags": ["工具", "JSON"], "icon": "🧾", "kind": "preset-plugin", "file": "plugins/json-format.js" },
+    { "id": "sha256-hash", "name": "SHA-256 摘要工具", "description": "注册模型工具 sha256_hash：计算文本的 SHA-256 摘要（hex/base64）。", "version": "1.0.0", "author": "内置市场", "tags": ["工具", "哈希"], "icon": "🔏", "kind": "preset-plugin", "file": "plugins/sha256-hash.js" },
+    { "id": "random-string", "name": "随机字符串工具", "description": "注册模型工具 random_string：生成指定长度与字符集的随机字符串（密码、token 等）。", "version": "1.0.0", "author": "内置市场", "tags": ["工具", "随机"], "icon": "🎲", "kind": "preset-plugin", "file": "plugins/random-string.js" },
+    { "id": "date-diff", "name": "日期差计算工具", "description": "注册模型工具 date_diff：计算两个日期之间相差的天数。", "version": "1.0.0", "author": "内置市场", "tags": ["工具", "日期"], "icon": "📅", "kind": "preset-plugin", "file": "plugins/date-diff.js" },
+    { "id": "string-slug", "name": "Slug 转换工具", "description": "注册模型工具 string_slug：把文本转成 URL 友好的 slug（保留中文）。", "version": "1.0.0", "author": "内置市场", "tags": ["工具", "文本"], "icon": "🔗", "kind": "preset-plugin", "file": "plugins/string-slug.js" },
+    { "id": "code-review-checklist", "name": "代码审查清单", "description": "安装技能：代码审查时的逐项检查清单（正确性、安全、性能、一致性、测试、变更范围）。", "version": "1.0.0", "author": "本地仓库", "tags": ["技能", "工程"], "icon": "✅", "kind": "skill", "file": "skills/code-review-checklist.md" },
+    { "id": "markdown-style-guide", "name": "中文 Markdown 写作规范", "description": "安装技能：中文 Markdown 文档的排版与格式规范。", "version": "1.0.0", "author": "本地仓库", "tags": ["技能", "写作"], "icon": "📝", "kind": "skill", "file": "skills/markdown-style-guide.md" },
+    { "id": "pwsh-script-style", "name": "PowerShell 脚本规范", "description": "安装技能：PowerShell 脚本的命名、参数、错误处理与输出规范。", "version": "1.0.0", "author": "本地仓库", "tags": ["技能", "PowerShell"], "icon": "⚙️", "kind": "skill", "file": "skills/pwsh-script-style.md" },
+    { "id": "api-design-notes", "name": "API 设计要点", "description": "安装技能：API 设计时的命名、版本、错误结构、幂等与分页要点。", "version": "1.0.0", "author": "本地仓库", "tags": ["技能", "设计"], "icon": "🧭", "kind": "skill", "file": "skills/api-design-notes.md" },
+    { "id": "logging-guidelines", "name": "日志与错误处理规范", "description": "安装技能：日志分层、结构化、脱敏与错误处理原则。", "version": "1.0.0", "author": "本地仓库", "tags": ["技能", "运维"], "icon": "📋", "kind": "skill", "file": "skills/logging-guidelines.md" }
+  ]
+}
