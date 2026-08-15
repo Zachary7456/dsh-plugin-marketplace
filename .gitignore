@@ -1,0 +1,6 @@
+# 运行时产物（市场面板在工作区自动生成/下载的内容）
+downloads/
+pending/
+node_modules/
+*.log
+.DS_Store
