@@ -1,0 +1,38 @@
+{
+  "name": "我的插件市场",
+  "plugins": [
+    {
+      "id": "my-plugin",
+      "name": "我的插件",
+      "description": "一句话描述：这个插件做什么。",
+      "version": "1.0.0",
+      "author": "你的名字",
+      "tags": ["标签1", "标签2"],
+      "icon": "🔧",
+      "kind": "preset-plugin",
+      "file": "plugins/my-plugin.js"
+    },
+    {
+      "id": "my-skill",
+      "name": "我的技能",
+      "description": "一个技能的正文（SKILL.md 内容）。",
+      "version": "1.0.0",
+      "author": "你的名字",
+      "tags": ["技能"],
+      "icon": "📝",
+      "kind": "skill",
+      "file": "skills/my-skill.md"
+    },
+    {
+      "id": "my-dynamic",
+      "name": "我的动态插件（试用）",
+      "description": "动态试用条目：file 指向 {host, client} 的 manifest JSON。",
+      "version": "1.0.0",
+      "author": "你的名字",
+      "tags": ["动态插件"],
+      "icon": "⚡",
+      "kind": "dynamic-plugin",
+      "file": "plugins/my-dynamic.manifest.json"
+    }
+  ]
+}
